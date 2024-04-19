@@ -1,0 +1,18 @@
+Prefix Expression is -+ABC:
+Postfix Expression is AB+C-
+Prefix Expression is -A+BC:
+Postfix Expression is ABC+-
+Prefix Expression is $+-ABC+D-EF:
+Postfix Expression is AB-C+DEF-+$
+Prefix Expression is -*A$B+C-DE*EF:
+Postfix Expression is ABCDE-+$*EF*-
+Prefix Expression is **A+BC+C-BA:
+Postfix Expression is ABC+*CBA-+*
+Invalid Prefix Expression: There are too many operands, add an operator.
+Invalid Expression: Operator Node '*' does not have 2 children. Add another operand.
+Invalid Expression: Operator Node '/' does not have 2 children. Add another operand.
+Prefix Expression is *$A+BC+C-BA:
+Postfix Expression is ABC+$CBA-+*
+Prefix Expression is //A+B0-C+BA:
+Postfix Expression is AB0+/CBA+-/
+Invalid Prefix Expression: There are too many operands, add an operator.
